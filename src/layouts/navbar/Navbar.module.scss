@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #FAFAFA;
+    display: flex;
+    .navbar__logo{
+        .navbar__logo__img{
+            width: 20px;
+            
+        }
+    }
+    .navbar_display {
+        display: flex;
+    }
+    .navbar__orders{
+        .navbar__orders__item{
+            font-size: 14px;
+            display: flex   ;
+            list-style: none;
+            gap: 10px;
+        }
+    }
+    .navbar__chooses{
+        margin-left: 370px;
+        display: flex;
+        gap: 20px;
+        .navbar_choses__private{
+            color: #FF7A00;
+        }
+    }
+}

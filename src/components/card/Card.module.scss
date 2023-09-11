@@ -1,0 +1,31 @@
+.section__card{
+    margin-top: 40px;
+    .section__cards{
+        gap: 50px;
+        display: flex;
+        .section__card__offer{
+            padding-top: 40px;
+            text-align: center;
+            background-color: #FAFAFA;
+            width: 274px;
+            .section__card__title{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .section__card__math{
+                font-size: 50px;
+                color: #ff6400;
+            }
+            .section__card__btn{
+                margin-bottom: 30px;
+                margin-top: 20px;
+                width: 140px;
+                height: 50px;
+                border-radius: 20px;
+                background-color: #ff6400;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.section__cardnews{
+    margin-top: 50px;
+    .section__cardnews_cards{
+        display: flex;
+        gap: 30px;
+        .section__cardnews_card__item{
+            background-color: #f2f2f2;
+            width: 393px;
+            padding-top: 30px;
+            border-radius: 7px;
+            padding-left: 28px;
+            padding-right: 20px;
+            &:hover{
+                background-color: #ff6400;
+                .section__cardnews__title{
+                    color: white;
+                }
+                
+                .section__cardnews__datetime{
+                    color: white;
+                }
+            }
+            .section__cardnews__title{
+                color: #ff6400;
+                font-weight: 700;
+            }
+            .section__cardnews__desc{
+                color: black;
+            }
+            .section__cardnews__datetime{
+                color: black;
+            }
+        }   
+    }
+    .section__cardnews_btn_center{
+display: flex;
+text-align: center;
+justify-content: center;
+margin-top: 30px;
+        .section__cardnews__btn {
+            background-color: #ff6400;
+            color: white;
+            border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        margin: 0; 
+        padding: 0;
+    }
+}
+    
+}

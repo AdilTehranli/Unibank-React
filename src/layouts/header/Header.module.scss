@@ -1,0 +1,64 @@
+.header{
+    .header__offer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        .header__offer__items{
+            display: flex;
+            list-style: none;
+            font-weight: 700;
+            gap: 20px;
+            font-size: 20px;
+        }
+        .header__call{
+            .header__call_btn{
+                background-color: white;
+                width: 70px;
+                height: 40px;
+                border-radius: 15px;
+             font-weight: 600;
+            }
+        }
+    }
+.header_slider{
+    background-color: #FF6400;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-top: 30px;
+    padding-left: 95px;
+    .header__slider__df{
+        display: flex;
+    }
+    .header__slider__text{
+        margin-top: 80px;
+        .header__slider__text__h4{
+            color: white;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .header__slider__parag{
+            margin-top: 30px;
+            color: white;
+        }
+    }
+    .header__slider__buttons{
+        display: flex;
+        margin-top: 40px;
+        gap: 20px;
+        .header__slider__delivery{
+            color: #FF6400;
+            border: none;
+            width: 115px;
+            height: 45px;
+            border-radius: 20px;
+        }
+        .header__slider__about{
+            background-color: #FF6400;
+            color: white;
+            width: 70px;
+            border-radius: 20px;
+            border-color: white;
+        }
+    }
+}
+}
