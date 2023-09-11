@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 90px;
+    .footer__orders{
+        display: flex;
+        gap: 30px;
+        border-bottom: solid 1px ;
+        .footer__orders__menu{
+            .footer__orders__menu__ul{
+                font-weight: 700;
+                .footer__orders__menu__li{
+                    margin-top: 10px;
+                    font-weight: 200;
+                    list-style: none;
+                }
+            }
+        }
+    }
+    .footer__information__df{
+        display: flex;
+        .footer__information__text{
+            .footer__information__text__date{
+            }
+            .footer__information__text__desc{
+                width: 200px;
+            }
+        }
+    }
+}
