@@ -77,12 +77,20 @@ const Footer = () => {
                         <li className={styles.footer__orders__menu__li}>Digər sənədlər</li>
                     </ul>
                 </div>
+                
             </div>
-            <div className={styles.footer__information__text}>
+            
+            <div className={styles.footer__information__df}>
                 <div className={styles.footer__information__text}>
                     <p className={styles.footer__information__text__date}> © 2023, Unibank - Sənin Bankın</p>
                     <p className={styles.footer__information__text__desc}>Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli lisenziyası əsasında fəaliyyət göstərir.
 Bütün hüquqlar qorunur.</p>
+                </div>
+                <div className={styles.footer__information__images}>
+                    <img className={styles.footer__information__image} src="	https://unibank.az/assets/images/adif.png" alt="" />
+                    <img className={styles.footer__information__image}  src="https://unibank.az/assets/images/infobank.png?v4" alt="" />
+                    <img className={styles.footer__information__image}  src="	https://unibank.az/assets/images/msp.png?v5" alt="" />
+                    <img className={styles.footer__information__image}  src="https://unibank.az/assets/images/msp.png?v5" alt="" />
                 </div>
             </div>
         </div>

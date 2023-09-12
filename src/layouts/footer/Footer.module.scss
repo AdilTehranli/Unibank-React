@@ -18,11 +18,24 @@
     .footer__information__df{
         display: flex;
         .footer__information__text{
+            margin-top: 20px;
             .footer__information__text__date{
+                font-size: 10px;
             }
             .footer__information__text__desc{
-                width: 200px;
+                width: 659px;
+                font-size: 12px;
             }
+        }
+        .footer__information__images{
+            gap: 34px;
+            display: flex;
+            margin: 20px 110px;
+        display: flex;
+        .footer__information__image{
+            height: 59px;
+            width: 74px;
+        }
         }
     }
 }
