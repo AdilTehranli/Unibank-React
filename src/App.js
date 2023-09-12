@@ -7,7 +7,6 @@ import Ucard from "./components/ucard/Ucard";
 import Footer from "./layouts/footer/Footer";
 import Header from "./layouts/header/Header";
 import Navbar from "./layouts/navbar/Navbar";
-
 function App() {
   return (
     <div className="App">

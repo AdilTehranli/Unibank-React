@@ -1,10 +1,71 @@
-.currency{
-    .currency__slider{
-       background-color: #f2f2f2; 
-       .currency__slider__title{
-        .currency__slider__title__h3{
-            color: #FF6400;
-        }
-       }
+.currency {
+  margin-top: 20px;
+  .currency__slider {
+    background-color: #f2f2f2;
+    height: 600px;
+    .currency__slider__title {
+      margin-left: 53px;
+      padding-top: 44px;
+      .currency__slider__title__h3 {
+        color: #ff6400;
+      }
     }
+    .currency__slider__excange__df {
+      display: flex;
+      .currency__slider__exchange {
+        width: 400px;
+        margin-top: 28px;
+        margin-left: 57px;
+        .currency__slider__exchange__title {
+          font-size: 24px;
+          font-weight: 700;
+          margin-bottom: 3px;
+        }
+        .currency__slider__exchange__body {
+          margin-top: 25px;
+          table {
+            thead {
+              tr {
+                th {
+                  margin-left: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .currency__slider__calculater {
+      background-color: white;
+    margin-left: 51px;
+    margin-top: 45px;
+    width: 90%;
+    height: 25%;
+      .currency__slider__calculater_items {
+        display: flex;
+        .currency__slider__calculater_item__texts{
+            margin-top: 30px;
+            margin-left: 65px;
+            .currency__slider__calculater_item__text_h4{
+
+            }
+            .currency__slider__calculater_item__text_p{
+
+            }
+        }
+        .currency__slider__calculater_item__inps{
+            display: flex;
+            margin-top: 46px;
+            margin-left: 239px;
+            gap: 60px;
+            .currency__slider__calculater_item__inp_en{
+                .currency__slider__calculater_item__inps_m{
+                    height: 57px;
+                    width: 240px;
+                }
+            }
+        }
+      }
+    }
+  }
 }
