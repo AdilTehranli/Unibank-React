@@ -1,5 +1,6 @@
 import Card from "./components/card/Card";
 import Cardnews from "./components/cardnews/Cardnews";
+import Currency from "./components/currency/Currency";
 import Support from "./components/support/Support";
 import Ubank from "./components/ubank/Ubank";
 import Ucard from "./components/ucard/Ucard";
@@ -15,6 +16,7 @@ function App() {
     <Card/>
     <Ucard/>
     <Ubank/>
+    <Currency/>
     <Cardnews/>
     <Support/>
     <Footer/>

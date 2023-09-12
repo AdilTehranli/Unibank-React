@@ -92,6 +92,7 @@ Bütün hüquqlar qorunur.</p>
                     <img className={styles.footer__information__image}  src="	https://unibank.az/assets/images/msp.png?v5" alt="" />
                     <img className={styles.footer__information__image}  src="https://unibank.az/assets/images/msp.png?v5" alt="" />
                 </div>
+            
             </div>
         </div>
     </div>

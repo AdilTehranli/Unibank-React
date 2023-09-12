@@ -24,11 +24,43 @@
         }
     }
     .navbar__chooses{
-        margin-left: 370px;
+        margin-left: 310px;
         display: flex;
         gap: 20px;
-        .navbar_choses__private{
-            color: #FF7A00;
+        .navbar_choses__private_bc{
+            background-color: white;
+            display: flex;
+            gap: 10px;
+            width: 106px;
+            text-align: center;
+            height: 32px;
+            border-color: #FF7A00;
+            .navbar_choses__private{
+                color: #FF7A00;
+                margin-left: 8px;
+                
+            }
+        }
+        .navbar__chosess_dark_i{
+            background-color: #323232;
+            width: 22px;
+            height: 28px;
+            border-radius: 5px;
+            .navbar__choses__darklight{
+                color: white;
+                margin-left: 2px;
+            }
+        }
+        .navbar__choses__langs{
+            background-color: white;
+            width: 45px;
+            height: 34px;
+            border-radius: 7px;
+           .navbar__choses__language__en{
+            margin-left: 8px;
+    margin-top: 4px;
+           }
+         
         }
     }
 }

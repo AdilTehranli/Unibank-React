@@ -23,12 +23,27 @@ const Navbar = () => {
             </ul>
         </div>
         <div className={styles.navbar__chooses}>
+            <div className={styles.navbar_choses__private_bc}>
+
             <p className={styles.navbar_choses__private}>Ferdi</p>
             <p className='navbar__choses__corpotare'>Biznes</p>
-            <p className='navbar__choses__darklight'>Ic</p>
-            <p className='navbar__choses__language__en'>ENG</p>
-            <p className='navbar__choses__language__ru'>RUS</p>
-            <p className='navbar__choses__search'>se</p>
+            </div>
+            <div className={styles.navbar__chosess_dark_i}>
+
+            <p className={styles.navbar__choses__darklight}><i class="fa-solid fa-circle-half-stroke"></i></p>
+            </div>
+            <div className={styles.navbar__choses__langs}>
+
+            <p className={styles.navbar__choses__language__en}>ENG</p>
+            </div>
+            <div className={styles.navbar__choses__langs}>
+
+            <p className={styles.navbar__choses__language__en}>RUS</p>
+            </div>
+            <div className={styles.navbar__choses__langs}>
+
+            <p className={styles.navbar__choses__language__en}><i class="fa-solid fa-magnifying-glass"></i></p>
+            </div>
         </div>
         </div>
     </div>
