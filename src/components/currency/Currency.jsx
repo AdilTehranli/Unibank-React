@@ -145,6 +145,8 @@ const Currency = () => {
                 >
                   Valyuta kalkulyatoru
                 </h4>
+
+                
                 <p className={styles.currency__slider__calculater_item__text_p}>
                   Nağd məzənnə əsasında hesablanır
                 </p>
